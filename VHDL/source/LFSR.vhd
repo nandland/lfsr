@@ -32,7 +32,7 @@ end entity LFSR;
 
 architecture RTL of LFSR is
 
-  signal r_LFSR : std_logic_vector(NUM_BITS downto 1) := (others => '0');
+  signal r_LFSR : std_logic_vector(NUM_BITS downto 1);
   signal w_XNOR : std_logic;
   
 begin
